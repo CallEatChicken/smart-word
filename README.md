@@ -20,10 +20,6 @@
 
 
 #### 💒 平台地址地址
-- github 
-https://github.com/baizunxian/fast-element-admin
-- gitee
-https://gitee.com/xb_xiaobai/fast-element-admin
 
 #### ⛱️ 线上预览
 
