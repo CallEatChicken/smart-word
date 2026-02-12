@@ -2,7 +2,7 @@ import vue from '@vitejs/plugin-vue';
 import {resolve} from 'path';
 import {defineConfig, loadEnv, ConfigEnv} from 'vite';
 import vueSetupExtend from 'vite-plugin-vue-setup-extend';
-import monacoEditorPlugin from "vite-plugin-monaco-editor"
+// import monacoEditorPlugin from "vite-plugin-monaco-editor"
 
 // import MonacoEditorNlsPlugin, {esbuildPluginMonacoEditorNls, Languages,} from '/@/components/monaco/nls';
 
@@ -22,7 +22,7 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
   return {
     plugins: [
       vue(),
-      vueSetupExtend(), monacoEditorPlugin(),
+      vueSetupExtend(),
       // MonacoEditorNlsPlugin({
       //   locale: Languages.zh_hans,
       //   /**
