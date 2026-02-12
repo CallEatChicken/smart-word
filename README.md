@@ -27,19 +27,12 @@ https://gitee.com/xb_xiaobai/fast-element-admin
 
 #### ⛱️ 线上预览
 
-- ZERO AUTOTEST
-  自动化测试平台在线预览 <a href="https://zerorunner.cn" target="_blank">https://zerorunner.cn</a>
-
-- 首页
-  ![](static/img/index.png)
-- 报告页面
-  ![](static/img/report.png)
-- 自定义函数
-  ![](static/img/func.png)
-
 #### 🚧 项目启动初始化-后端
 
 ```bash
+# python -m venv venv
+# venv\Scripts\activate
+# pip install -r requirements
 # 克隆项目
 git clone https://github.com/baizunxian/vue-fastapi-admin.git
 
@@ -106,13 +99,3 @@ cnpm run build
 # 或者 
 yarn build
 ```
-
-#### 💯 学习交流加 微信 群
-
-- 或者添加我的微信，我可以拉你们进入交流群
-  ![](static/img/weixin.png)
-
-#### 💌 支持作者
-
-如果觉得框架不错，或者已经在使用了，希望你可以去 <a target="_blank" href="https://github.com/baizunxian/vue-fastapi-admin">
-Github</a> 帮我点个 ⭐ Star，这将是对我极大的鼓励与支持, 平台会持续迭代更新。
